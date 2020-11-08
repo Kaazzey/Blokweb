@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Gwyneth Schmitz-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -69,11 +69,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -blauw-
+**Je startniveau:** blauwd piste
 
-**Je focus:** -helemaal responsive-
+**Je focus:** helemaal responsive
 
-**Je opdracht:** -https://www.apple.com/-
+**Je opdracht:** https://www.apple.com/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
