@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** helemaal responsive
 
-**Je opdracht:** https://www.apple.com/
+**Je opdracht:** Ik ga proberen https://www.apple.com/ na te maken.
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
