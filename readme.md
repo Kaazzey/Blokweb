@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/bol.png" width="375px" alt="Homepagina van Bol.com">
+<img src="images/bol.png" width="375" alt="Homepagina van Bol.com">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="bolgames.png" width="375px" alt="Game categorie binnen bol.com">
+<img src="images/bolgames.png" width="375" alt="Game categorie binnen bol.com">
