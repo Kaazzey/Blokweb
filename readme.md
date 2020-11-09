@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/bolgames.png" width="375" alt="Game categorie binnen bol.com">
+<img src="images/bolgames.png" width="375" alt="Game categorie binnen bol.com" />
