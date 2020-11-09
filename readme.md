@@ -73,12 +73,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** helemaal responsive
 
-**Je opdracht:** Ik ga proberen https://www.apple.com/ na te maken.
+**Je opdracht:** Ik ga proberen https://www.bol.com/nl/ na te maken.
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/homepage.png" width="375px" alt="Homepagina van Apple">
+<img src="images/bol.png" width="375px" alt="Homepagina van Bol.com">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/macpage.png" width="375px" alt="detailpagina van de macbooks die aangeboden worden">
+<img src="images/bolgames.png" width="375px" alt="Game categorie binnen bol.com">
