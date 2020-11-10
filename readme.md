@@ -61,8 +61,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Breakdownschets (week 1)
+Typografie opdrachten: https://codepen.io/Kaazzey/pen/ZEOqyMM
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+
 Hieronder de semi-gedetailleerde schermschets voor de gamepagina van Bol.com
 <img src="images/schermschets.png" width="375" alt="Schermschets van de gamepagina van Bol.com" />
 
