@@ -65,7 +65,7 @@ Typografie opdrachten: https://codepen.io/Kaazzey/pen/ZEOqyMM
 
 
 Hieronder de semi-gedetailleerde schermschets voor de gamepagina van Bol.com
-<img src="images/schermschets.png" width="375" alt="Schermschets van de gamepagina van Bol.com" />
+<img src="images/schermschetsv2.png" width="375" alt="Schermschets van de gamepagina van Bol.com" />
 
 
 
