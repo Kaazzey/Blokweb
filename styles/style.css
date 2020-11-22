@@ -1,5 +1,155 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Nav */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+    align-items: baseline;
+    padding-top: 0.5em;
+}
+
+nav ul li {
+    padding-left: 1em;
+    color: darkblue;
+}
+
+nav ul li img {
+    width: 1.3em;
+}
+
+nav ul li:first-child {
+    flex-grow: 2;
+    font-size: 1.8em;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+nav ul li:last-child {
+    padding-right: 1em;
+}
+
+
+/* Zoekbalk */
+form {
+    background-color: darkblue;
+    margin: 0.5em 0em;
+    padding: 1em 0em;
+}
+
+form input {
+    width: 23em;
+    margin-left: 1em;
+    border-radius: 2em 0em 0em 2em;
+    border: 1px solid white;
+    padding: 0.8em 0.4em 0.8em 2em;
+}
+
+form button {
+    background-color: white;
+    border: 0em solid white;
+    border-radius: 0em 2em 2em 0em;
+    padding: 0.8em 1em 0.8em 0.4em;
+}
+
+form button img {
+    width: 1em;
+}
+
+/* Body */
+h1 {
+    margin: 1em 0em 0.5em 0.5em;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+p {
+    margin: 1em 0.8em 1em 0.8em;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.headerimg {
+    width: 23em;
+    padding: 0em 0.5em;
+}
+
+/* Slider 1  */
+.slider1 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.slider1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 0.5em;
+}
+
+.slider1 ul li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    border: 1px solid darkgray;
+    padding: 0.2em 0.5em;
+    align-items: center;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 1em;
+    border-radius: 0.2em;
+}
+
+.slider1 ul li img {
+    width: 2em;
+    margin-right: 0.8em;
+}
+
+.slider2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+.slider2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 0.5em;
+}
+
+.slider2 ul li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 5em;
+    height: 5em;
+    padding-right: 1em;
+    align-items: center;
+}
+
+.slider2 ul li a {
+ 
+}
+
+.slider2 ul li a img {
+    max-height: 3.25em;
+    max-width: 3.25em;
+    border: 0.1em solid darkgray;
+    border-radius: 2em;
+}
