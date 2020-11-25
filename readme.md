@@ -6,9 +6,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.bol.com/nl/
+2. https://www.bol.com/nl/l/games/N/3135/?bltgh=kmjaL3wkekf2-22lIg5FJQ.12_13_14.30.CategoryImage
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. /*https://www.w3schools.com/css/css3_object-fit.asp*/
 
 
 
