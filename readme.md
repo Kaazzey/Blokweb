@@ -69,11 +69,11 @@ Hier wederom hetzelfde, veel invulwerk, maar dus ook veel herhaling van staande 
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1: Anniek Baarse       | student 2: Gwyneth Schmitz                        | student 3    | student 4        |
+| ---                            | ---                                               | ---          | ---              |
+| De slider in de header.        | De afbeeldingen in de slider 2 op de gamepagina   | en ik dit    | en dan ik dat    |
+| De breedte van de afbeeldingen.| Zoekbalk zonder streepje.                         | nog een punt | dit wil ik zeker |
+| De footer die 2-koloms hoort.  | List items in slider 1 niet mooi.                 | ...          | ...              |
 
 ### Verslag van meeting
 
