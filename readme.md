@@ -41,7 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 Dit ging goed: Ik ben enorm blij dat ik het scrollen naar de zijkant heb weten te fixen, ook d.m.v. tips vanuit de lessen.
-<img src="images/goed.png" width="375" alt="Dit ging goed" />
+<img src="images/goed1.png" width="375" alt="Dit ging goed" />
 
 Dit is/was lastig:
 Ik ben momenteel nog steeds aan het zoeken naar een oplossing om de images in het midden van de bolletjes te krijgen. Ik ben echter wel al een stapje dichterbij als vannochtend, nadat ik naar het vragenuurtje van de studentassistent Iris ben gegaan.
@@ -50,14 +50,17 @@ Ik ben momenteel nog steeds aan het zoeken naar een oplossing om de images in he
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 Homepagina:
-<img src="images/home1.png" width="375" alt="Proces homepagina" />
-<img src="images/home2.png" width="375" alt="Proces homepagina" />
+
+
+<img src="images/home1.png" width="375" alt="Proces homepagina" /> <img src="images/home2.png" width="375" alt="Proces homepagina" />
+
 Ik moet nog veel invullen, maar het is veel herhaling van wat er nu al staat, dit komt dus wel goed.
 Ik heb de header en footer grotendeels af. Ik moet hier nog naar de details kijken. Ook moet ik nog een hamburger menu maken, maar ik had vernomen dat dat niet zo belangrijk is als de content op de pagina.
 
 Gamepagina:
-<img src="images/game1.png" width="375" alt="Proces gamepagina" />
-<img src="images/game2.png" width="375" alt="Proces gamepagina" />
+
+
+<img src="images/game1.png" width="375" alt="Proces gamepagina" /> <img src="images/game2.png" width="375" alt="Proces gamepagina" />
 <img src="images/game3.png" width="375" alt="Proces gamepagina" />
 
 Hier wederom hetzelfde, veel invulwerk, maar dus ook veel herhaling van staande code. Ik moet hier de tweede slider, met de merken nog fixen en de onderkant van de pagina kan ook duidelijk nog wel wat werk gebruiken. 
