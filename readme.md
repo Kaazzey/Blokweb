@@ -77,7 +77,11 @@ Hier wederom hetzelfde, veel invulwerk, maar dus ook veel herhaling van staande 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-1. Ik heb vernomen dat ik goed op weg ben. Hetgeen waar ik erg veel moeite mee heb is nogmaals de afbeeldingen in slider 2 goed krijgen. Ik heb met Iris gesproken in een apart vragenuurtje, hier gaf ze me al wat tips. Ik ben toen een stukje verder gekomen, maar nog net niet helemaal daar. Iris heeft mij tijdens de voortgang tips gegeven om object-position te gebruiken. Hier ga ik dan even naar kijken. (https://css-tricks.com/almanac/properties/o/object-position/). Mocht het allemaal echt niet lukken dan is mij geadviseerd om de afbeeldingen allemaal even groot te maken in photoshop. 
+
+2. De zoekbalknop kan volgens Iris heel makkelijk gefixt worden door met padding en margins te spelen. Hier ga ik naar kijken.
+
+3. Hetzelfde wat voor slider 2 geldt, geld voor slider 1. Ook hier ga ik mee aan de slag.
 
 
 
