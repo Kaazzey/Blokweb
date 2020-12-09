@@ -43,15 +43,19 @@ Font kreeg ik in eerste instantie niet helemaal, het is nu wel bold, maar nog ni
 <img src="images/sterretjes.png" width="375" alt="Dit is/was lastig" />
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+
 Homepagina:
+
 Wederom moet er nog voornamelijk herhaalde content worden toegevoegd.
 
 <img src="images/homevoortgang2.png" width="375" alt="Proces homepagina voortgang 2" />
 
 Gamepagina:
+
 De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en een klein lijstje bij de footer.
 
-<img src="images/gamevoortgang2.png" width="375" alt="Proces gamepagina voortgang 2" />
+
+<img src="images/gamesvoortgang2.png" width="375" alt="Proces gamepagina voortgang 2" />
 
 ### Agenda voor meeting
 
