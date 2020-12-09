@@ -10,6 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://www.bol.com/nl/l/games/N/3135/?bltgh=kmjaL3wkekf2-22lIg5FJQ.12_13_14.30.CategoryImage
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 4. https://www.w3schools.com/css/css3_object-fit.asp
+5. https://css-tricks.com/almanac/properties/o/object-position/
 
 
 
@@ -31,7 +32,44 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+De metadata van de producten ziet er nu goed uit en is volledig.
+<img src="images/meta.png" width="375" alt="Dit ging goed" />
+
+
+Dit is/was lastig:
+Was even lastig om de sterretjes op zijn plek te krijgen, dat heb ik opgelost door de div eruit te halen en direct op de ul te stylen.
+Font kreeg ik in eerste instantie niet helemaal, het is nu wel bold, maar nog niet tevreden met het eindresultaat. Ik ga nog verder zoeken.
+<img src="images/sterretjes.png" width="375" alt="Dit is/was lastig" />
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+Homepagina:
+Wederom moet er nog voornamelijk herhaalde content worden toegevoegd.
+
+<img src="images/homevoortgang2.png" width="375" alt="Proces homepagina voortgang 2" />
+
+Gamepagina:
+De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en een klein lijstje bij de footer.
+
+<img src="images/gamevoortgang2.png" width="375" alt="Proces gamepagina voortgang 2" />
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| student 1: Anniek Baarse       | student 2: Gwyneth Schmitz                        | student 3: Chantal Valk                 | student 4        |
+| ---                            | ---                                               | ---                                     | ---              |
+|...                             | Categorie lijsten op de homepage...help           | ...                                     | en dan ik dat    |
+|...                             | Hoe krijg ik het loepje in de zoekbalk?           | ...                                     | dit wil ik zeker |
+|...                             |                                                   | ...                                     | ...              |
+
+### Verslag van meeting
+
+-1. Ik heb vernomen dat ik goed op weg ben. Hetgeen waar ik erg veel moeite mee heb is nogmaals de afbeeldingen in slider 2 goed krijgen. Ik heb met Iris gesproken in een apart vragenuurtje, hier gaf ze me al wat tips. Ik ben toen een stukje verder gekomen, maar nog net niet helemaal daar. Iris heeft mij tijdens de voortgang tips gegeven om object-position te gebruiken. Hier ga ik dan even naar kijken. (https://css-tricks.com/almanac/properties/o/object-position/). Mocht het allemaal echt niet lukken dan is mij geadviseerd om de afbeeldingen allemaal even groot te maken in photoshop. 
+
+2. De zoekbalknop kan volgens Iris heel makkelijk gefixt worden door met padding en margins te spelen. Hier ga ik naar kijken.
+
+3. Hetzelfde wat voor slider 2 geldt, geld voor slider 1. Ook hier ga ik mee aan de slag.
 
 
 
