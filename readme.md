@@ -10,7 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://www.bol.com/nl/l/games/N/3135/?bltgh=kmjaL3wkekf2-22lIg5FJQ.12_13_14.30.CategoryImage
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 4. https://www.w3schools.com/css/css3_object-fit.asp
-5. https://css-tricks.com/almanac/properties/o/object-position/
+5. 
 
 
 
@@ -69,11 +69,8 @@ De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en
 
 ### Verslag van meeting
 
--1. Ik heb vernomen dat ik goed op weg ben. Hetgeen waar ik erg veel moeite mee heb is nogmaals de afbeeldingen in slider 2 goed krijgen. Ik heb met Iris gesproken in een apart vragenuurtje, hier gaf ze me al wat tips. Ik ben toen een stukje verder gekomen, maar nog net niet helemaal daar. Iris heeft mij tijdens de voortgang tips gegeven om object-position te gebruiken. Hier ga ik dan even naar kijken. (https://css-tricks.com/almanac/properties/o/object-position/). Mocht het allemaal echt niet lukken dan is mij geadviseerd om de afbeeldingen allemaal even groot te maken in photoshop. 
-
-2. De zoekbalknop kan volgens Iris heel makkelijk gefixt worden door met padding en margins te spelen. Hier ga ik naar kijken.
-
-3. Hetzelfde wat voor slider 2 geldt, geld voor slider 1. Ook hier ga ik mee aan de slag.
+1. Mark heeft hetzelfde in zijn site zitten, hij raad aan een list in een list te maken met een class erop. Dit ga ik proberen, lukt dit niet mag ik hulp vragen bij Mark.
+2. De button zit in het zoekformulier, niet ernaast. Dat ga ik proberen.
 
 
 
