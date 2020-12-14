@@ -28,8 +28,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+## kort verslag screenreader test
+Ik heb gebruik gemaakt van de MacOS screenreader. 
 
+1. Ik heb met VO + pijltjestoetsen (VO = ctrl + option) de headings laten voorlezen door de screenreader. De headings worden voorgelezen, het is duidelijk hoe de pagina in elkaar zit. Structuur klopt.
 
+2. Ik ben met Tab alle linkjes doorgegaan. Alle linkjes worden goed voorgelezen, alt tekst beshrijft waar de geselecteerde link je naartoe zal brengen.
 ## Voortgang 2 (week 5)
 
 -dit ging goed & dit was lastig-
