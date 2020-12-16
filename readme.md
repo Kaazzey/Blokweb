@@ -37,7 +37,7 @@ Hier hoe bol.com het heeft:
 <img src="images/bollijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van bol.com / Dit is/was lastig" />
 
 Hier hoe ik het tot nu toe heb:
-<img src="images/mijnlijst.PNG" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
+<img src="images/mijnlijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
