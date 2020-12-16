@@ -10,7 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://www.bol.com/nl/l/games/N/3135/?bltgh=kmjaL3wkekf2-22lIg5FJQ.12_13_14.30.CategoryImage
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 4. https://www.w3schools.com/css/css3_object-fit.asp
-5. 
+5. https://codepen.io/huange/pen/pJqEMj
 
 
 
@@ -26,7 +26,48 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+De uitklapbare categorieënlijst heb ik uiteindelijk voor elkaar gekregen, het enige wat nog mist is het pijltje dat een indicatie geeft wanneer de lijst uitgeklapt is.
+<img src="images/uitklaplijst.png" width="375" alt="Dit ging goed" />
+
+
+Dit is/was lastig:
+Ik weet nog niet precies hoe ik het pijltje bij de uitklapbare categorieënlijst zichtbaar moet maken, samen met het dik drukken van de uitgeklapte categorie.
+Hier hoe bol.com het heeft:
+<img src="images/bollijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van bol.com / Dit is/was lastig" />
+
+Hier hoe ik het tot nu toe heb:
+<img src="images/mijnlijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+Homepagina:
+
+Ik heb vrijwel alle content nu toegevoegd, er zijn nog hier en daar kleine details die toegevoegd moeten worden.
+
+<img src="images/indexvoortgang3.png" width="375" alt="Proces homepagina voortgang 3" />
+
+Gamepagina:
+
+De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en een klein lijstje bij de footer.
+
+
+<img src="images/gamesvoortgang3.png" width="375" alt="Proces gamepagina voortgang 3" />
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| student 1: Anniek Baarse       | student 2: Gwyneth Schmitz                        | student 3: Chantal Valk                 | student 4        |
+| ---                            | ---                                               | ---                                     | ---              |
+|...                             | Pijltjes bij de categorie lijst toevoegen         | ...                                     | en dan ik dat    |
+|...                             | Uitgeklapte categorie dikgedrukt maken            | ...                                     | dit wil ik zeker |
+|...                             |                                                   | ...                                     | ...              |
+
+### Verslag van meeting
+
+
+
 
 ## kort verslag screenreader test
 Ik heb gebruik gemaakt van de MacOS screenreader. 
