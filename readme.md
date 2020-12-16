@@ -28,15 +28,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 De uitklapbare categorieënlijst heb ik uiteindelijk voor elkaar gekregen, het enige wat nog mist is het pijltje dat een indicatie geeft wanneer de lijst uitgeklapt is.
-<img src="images/uitklaplijst.png" width="375" alt="Dit ging goed" />
+
+
+<img src="images/uitklaplijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst / Dit ging goed" />
 
 
 Dit is/was lastig:
 Ik weet nog niet precies hoe ik het pijltje bij de uitklapbare categorieënlijst zichtbaar moet maken, samen met het dik drukken van de uitgeklapte categorie.
 Hier hoe bol.com het heeft:
+
+
 <img src="images/bollijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van bol.com / Dit is/was lastig" />
 
 Hier hoe ik het tot nu toe heb:
+
+
 <img src="images/mijnlijst2.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
