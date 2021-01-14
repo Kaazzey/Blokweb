@@ -11,6 +11,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 4. https://www.w3schools.com/css/css3_object-fit.asp
 5. https://codepen.io/huange/pen/pJqEMj
+6. https://css-tricks.com/almanac/properties/t/transition/
+7. https://www.w3schools.com/css/css3_object-fit.asp
+8. https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+
+
 
 
 
@@ -18,9 +23,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Dit ging goed: het gebruiken van flexbox en de website proberen responsive te maken.
+
+Dit ging lastig: het hamburger menu laten verschijnen en verdwijnen met javascript en css.
+
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+
+<img src="images/finalhomepage.png" width="375" alt="Eindresultaat homepage mobiel" />
+
+<img src="images/finalgamepagina.png" width="375" alt="Eindresultaat gamepagina mobiel" />
+
+
+<img src="images/desktophomepage.png" width="375" alt="Eindresultaat homepage desktop" />
+
+<img src="images/desktopgamepagina.png" width="375" alt="Eindresultaat gamepagina desktop" />
 
 
 
@@ -35,15 +53,11 @@ De uitklapbare categorieënlijst heb ik uiteindelijk voor elkaar gekregen, het e
 
 Dit is/was lastig:
 Ik weet nog niet precies hoe ik het pijltje bij de uitklapbare categorieënlijst zichtbaar moet maken, samen met het dik drukken van de uitgeklapte categorie.
-Hier hoe bol.com het heeft:
+Dit is hoe bol.com het heeft:
 
 
 <img src="images/bollijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van bol.com / Dit is/was lastig" />
 
-Hier hoe ik het tot nu toe heb:
-
-
-<img src="images/mijnlijst2.jpg" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
