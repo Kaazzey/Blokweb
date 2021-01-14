@@ -8,31 +8,46 @@
 
     <title>Bol.com</title>
 
+    <!--   Link naar CSS bestand -->
     <link href="styles/style.css" rel="stylesheet">
+
+    <!--    Link naar Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lora&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="scripts/script.js"></script>
 </head>
 
 <body>
-    <script src="scripts/script.js"></script>
+
+    <!--   Header -->
     <header>
+
+        <!--       Navigatie -->
         <nav>
             <ul>
-                <li><img src="images/navlogo.svg" alt="Bol.com"></li>
-                <li><a href=""><img src="images/image1.png" alt="Profiel"></a></li>
-                <li><a href=""><img src="images/image5.png" alt="favorieten"></a></li>
-                <li><a href=""><img src="images/image3.png" alt="Winkelmandje"></a></li>
+                <li><img src="images/menu.svg" alt="Menu" id="menuknop"></li>
+                <li><a href="index.html"><img src="images/navlogo.svg" alt="Bol.com"></a></li>
+                <li><a href=""><img src="images/user.svg" alt="Profiel"></a></li>
+                <li><a href=""><img src="images/heart.svg" alt="favorieten"></a></li>
+                <li><a href=""><img src="images/shopping-cart.svg" alt="Winkelmandje"></a></li>
             </ul>
         </nav>
+
+        <!--        Zoekbalk -->
         <form role="zoek" action="#">
             <input type="search" name="search" id="search" placeholder="Waar ben je naar op zoek?" autocomplete="off">
             <button type="submit"><img src="images/image9.png" alt="zoeken"></button>
         </form>
-
     </header>
+
+    <!--    Main -->
     <main>
+
+        <!--       Sliders -->
         <section class="sliders">
+
+            <!--           Black friday image-->
             <img src="images/indexheaderimg.jpg" alt="Black Friday Deals" class="indexheaderimg">
+
+            <!--            Eerste slider 1 -->
             <h2>Kies een categorie</h2>
             <div class="indexslider1">
                 <ul>
@@ -42,8 +57,12 @@
                     <li><a href="">Wonen</a><img src="images/wonen.jpg" alt="Wonen"></li>
                     <li><a href="">Baby</a><img src="images/baby.jpg" alt="Baby"></li>
                     <li><a href="games.html">Games</a><img src="images/3135.jpg" alt="Games"></li>
+                    <li><a href="">Boeken</a><img src="images/boeken.jpg" alt="Videogames"></li>
+                    <li><a href="">Elektronica</a><img src="images/elektronica.jpg" alt="Elektronica"></li>
                 </ul>
             </div>
+
+            <!--            Tweede slider 1 -->
             <h2>De mooiste kerstversiering</h2>
             <div class="indexslider1">
                 <ul>
@@ -52,16 +71,25 @@
                     <li>LED Kerstverlichting <img src="images/kerstlicht.jpg" alt="Kerstverlichting"></li>
                     <li>Monzana Kerstkrans<img src="images/krans.jpg" alt="Monzana Kerstkrans"></li>
                     <li>Krans met Leds <img src="images/hard1.jpg" alt="Krans met LED"></li>
+                    <li>Nordmann Kerstboom<img src="images/boom.jpg" alt="Nordmann Kerstboom"></li>
+                    <li>Royal Christmas Dakota Guirlande<img src="images/kersttak.jpg" alt="Kersttak"></li>
+                    <li>LED Kerstverlichting <img src="images/kerstlicht.jpg" alt="Kerstverlichting"></li>
                 </ul>
             </div>
+
+            <!--            Eerste slider 2-->
             <h2>Voordeel &amp; Inspiratie</h2>
             <div class="indexslider2">
                 <ul>
                     <li><img src="images/insp1.jpg" alt="Keukengerei"></li>
                     <li><img src="images/insp3.jpg" alt="Rituals"></li>
                     <li><img src="images/insp4.jpg" alt="Speelgoed"></li>
+                    <li><img src="images/insp3.jpg" alt="Rituals"></li>
+                    <li><img src="images/insp4.jpg" alt="Speelgoed"></li>
                 </ul>
             </div>
+
+            <!--            Tweede slider 2-->
             <h2>Cadeaus voor iedereen</h2>
             <div class="indexslider2">
                 <ul>
@@ -69,9 +97,16 @@
                     <li>Cadeaus voor hem<img src="images/ca2.jpg" alt="Voor hem"></li>
                     <li>Verrassende cadeaus<img src="images/ca3.jpg" alt="Kopjes"></li>
                     <li>Altijd goed cadeaus<img src="images/ca4.jpg" alt="Handdoeken"></li>
+                    <li>Altijd goed cadeaus<img src="images/ca4.jpg" alt="Handdoeken"></li>
                 </ul>
             </div>
-            <img src="images/hogekorting.png" alt="hoge korting op populaire games" class="midimg">
+
+            <!--           Games kerst image -->
+            <div class="midimg">
+                <img src="images/hogekorting.png" alt="hoge korting op populaire games">
+            </div>
+
+            <!--           Derde slider 1-->
             <h2>Dit zijn de hardlopers</h2>
             <div class="indexslider1">
                 <ul>
@@ -80,8 +115,13 @@
                     <li>Cote D'or <img src="images/hard3.jpg" alt="Cote D'or"></li>
                     <li>Emerio 3 in 1 <img src="images/hard4.jpg" alt="Emerio 3 in 1"></li>
                     <li>Blauwpunkt Bluebot <img src="images/hard5.jpg" alt="Blauwpunkt"></li>
+                    <li>Cote D'or <img src="images/hard3.jpg" alt="Cote D'or"></li>
+                    <li>Emerio 3 in 1 <img src="images/hard4.jpg" alt="Emerio 3 in 1"></li>
+                    <li>Blauwpunkt Bluebot <img src="images/hard5.jpg" alt="Blauwpunkt"></li>
                 </ul>
             </div>
+
+            <!--            Eerste slider 3-->
             <h2>Ook interessant</h2>
             <div class="indexslider3">
                 <ul>
@@ -91,9 +131,10 @@
                 </ul>
             </div>
 
+            <!--           Dropdown list menu -->
+            <!-- https://codepen.io/huange/pen/pJqEMj -->
             <h2>Ontdek alles van Bol.com</h2>
 
-            <!-- https://codepen.io/huange/pen/pJqEMj -->
             <div class="wrapper">
                 <ul>
                     <li>
@@ -283,7 +324,7 @@
                         </ul>
                     </li>
                     <li>
-                        <input type="checkbox" id="list-item-16">
+                        <input type="checkbox" id="list-item-17">
                         <label for="list-item-16">Dranken &amp; Delicatessen</label>
                         <ul>
                             <li>Koffie</li>
@@ -292,7 +333,7 @@
                         </ul>
                     </li>
                     <li>
-                        <input type="checkbox" id="list-item-17">
+                        <input type="checkbox" id="list-item-18">
                         <label for="list-item-17">Auto &amp; Motor</label>
                         <ul>
                             <li>Auto &amp; Motor</li>
@@ -305,7 +346,7 @@
                         </ul>
                     </li>
                     <li>
-                        <input type="checkbox" id="list-item-18">
+                        <input type="checkbox" id="list-item-19">
                         <label for="list-item-18">Inspiratie</label>
                         <ul>
                             <li>Stijl Magazine</li>
@@ -316,7 +357,7 @@
                         </ul>
                     </li>
                     <li>
-                        <input type="checkbox" id="list-item-19">
+                        <input type="checkbox" id="list-item-20">
                         <label for="list-item-19" class="Last">Cadeaubonnen</label>
                         <ul>
                             <li>Cadeaubonnen</li>
@@ -327,26 +368,38 @@
 
         </section>
     </main>
+
+    <!--  Footer  -->
     <footer>
+       
+<!--       Service en contact sectie -->
         <section class="services">
             <h2>Services &amp; Contact</h2>
+            
+<!--            Eerste regel -->
             <div>
-                <img src="images/image1.png" alt="icoon">
+                <img src="images/userwhite.svg" alt="icoon">
                 <ul>
                     <li>Snel Regelen in je account</li>
                     <li><u>Volg je bestelling</u>, <u>betaal facturen</u> of <u>retourneer een artikel.</u></li>
                 </ul>
             </div>
+            
+<!--            Tweede regel -->
             <div>
-                <img src="images/image3.png" alt="icoon">
+                <img src="images/shopping-cartwhite.svg" alt="icoon">
                 <ul>
                     <li>Heb je ons nodig</li>
                     <li>We helpen je graag. <u>Onze klantenservice</u> is dag en nacht open.</li>
                 </ul>
             </div>
         </section>
+        
+<!--        Social Media sectie -->
         <section class="social">
             <h2>Wil je ons volgen?</h2>
+            
+<!--            Social Media iconen -->
             <ul>
                 <li><img src="images/soc1.png" alt="Facebook"></li>
                 <li><img src="images/soc2.png" alt="Twitter"></li>
@@ -356,7 +409,11 @@
                 <li><img src="images/soc6.png" alt="LinkedIn"></li>
             </ul>
             <p>Meld je aan voor onze nieuwsbrief</p>
+            
+<!--            Bol.com footer logo-->
             <img src="images/footerlogo.png" alt="Bol.com: De Winkel van ons allemaal" class="footerimg">
+            
+<!--            Footer links -->
             <ul class="footerlinks">
                 <li>Geldt voor aankopen bij Thuiswinkel-leden</li>
                 <li>|</li>
@@ -367,11 +424,47 @@
                 <li>© 1999-2020 bol.com b.v.</li>
             </ul>
         </section>
+        
+<!--        Voorwaarden -->
         <section class="voorwaarden">
             <p>* De voordelen van bol.com gelden niet voor het gehele assortiment. Bekijk de voorwaarden.</p>
             <p>Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele verzendkosten en servicekosten.</p>
         </section>
     </footer>
+
+
+    <!-- Hamburgermenu -->
+    <article>
+       
+<!--       Hamburgermenu achtergrond-->
+        <div class="fixedmenu">
+           
+<!--           Kruisje SVG -->
+            <img src="images/close.svg" alt="Terug" id="kruisje">
+            
+<!--           Hamburgermenu items -->
+            <div class="fixedmenudiv">
+                <ul>
+                    <li><img src="images/fi1.png" alt="">Boeken</li>
+                    <li><img src="images/fi2.png" alt="">Muziek, Film &amp; Games</li>
+                    <li><img src="images/fi3.png" alt="">Computer &amp; Elektronica</li>
+                    <li><img src="images/fi4.png" alt="">Speelgoed &amp; Hobby</li>
+                    <li><img src="images/fi5.png" alt="">Baby &amp; Kind</li>
+                    <li><img src="images/fi6.png" alt="">Mooi &amp; Gezond</li>
+                    <li><img src="images/fi8.png" alt="">Kleding, Schoenen &amp; Accessoires</li>
+                    <li><img src="images/fi9.png" alt="">Sport, Outdoor &amp; Reizen</li>
+                    <li><img src="images/fi10.png" alt="">Kantoor &amp; School</li>
+                    <li><img src="images/fi11.png" alt="">Dranken &amp; Delicatessen</li>
+                    <li><img src="images/fi12.png" alt="">Wonen, Koken &amp; Huishouden</li>
+                    <li><img src="images/fi13.png" alt="">Dier, Tuin &amp; Klussen</li>
+                    <li><img src="images/fi14.png" alt="">Auto &amp; Motor</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!--   Link naar javascript bestand -->
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

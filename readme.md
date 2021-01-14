@@ -22,6 +22,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van je eindresultaat-
 
+<img src="images/finalhomepage.png" width="375" alt="Eindresultaat homepage mobiel" />
+
+<img src="images/finalgamepagina.png" width="375" alt="Eindresultaat gamepagina mobiel" />
+
+
+<img src="images/desktophomepage.png" width="375" alt="Eindresultaat homepage desktop" />
+
+<img src="images/desktopgamepagina.png" width="375" alt="Eindresultaat gamepagina desktop" />
+
 
 
 ## Voortgang 3 (week 6)
@@ -35,27 +44,23 @@ De uitklapbare categorieënlijst heb ik uiteindelijk voor elkaar gekregen, het e
 
 Dit is/was lastig:
 Ik weet nog niet precies hoe ik het pijltje bij de uitklapbare categorieënlijst zichtbaar moet maken, samen met het dik drukken van de uitgeklapte categorie.
-Hier hoe bol.com het heeft:
+Dit is hoe bol.com het heeft:
 
 
 <img src="images/bollijst.png" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van bol.com / Dit is/was lastig" />
 
-Hier hoe ik het tot nu toe heb:
-
-
-<img src="images/mijnlijst2.jpg" width="375" alt="Voorbeeld van de uitgeklapte categorie lijst van mij / Dit is/was lastig"" />
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
 Homepagina:
 
-Ik heb vrijwel alle content nu toegevoegd, er zijn nog hier en daar kleine details die toegevoegd moeten worden.
+Ik heb vrijwel alle content nu toegevoegd, er zijn nog hier en daar kleine details die toegevoegd moeten worden. Ook wil ik nog een hamburger menu toevoegen.
 
 <img src="images/indexvoortgang3.png" width="375" alt="Proces homepagina voortgang 3" />
 
 Gamepagina:
 
-De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en een klein lijstje bij de footer.
+De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en een klein lijstje bij de footer. Ook wil ik nog een hamburger menu toevoegen.
 
 
 <img src="images/gamesvoortgang3.png" width="375" alt="Proces gamepagina voortgang 3" />
@@ -71,8 +76,7 @@ De gamepagina is nu ongeveer 98% af. Er moeten nog 1 button worden toegevoegd en
 |...                             |                                                   | ...                                     | ...              |
 
 ### Verslag van meeting
-
-
+Ik moet nog even uitzoeken wat er echt staat in css-regel 601 en 606. Het dikgedrukt maken van de aangeklikte categorie hoeft niet dikgedrukt gemaakt worden, aangezien ik niet voor de surface laag ga, maar het responsive ga maken.
 
 
 ## kort verslag screenreader test

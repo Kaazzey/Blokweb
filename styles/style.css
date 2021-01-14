@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-/* Nav */
+/* Navigatie menu */
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -18,24 +18,41 @@ nav ul {
     padding-top: 0.5em;
 }
 
+/* Lijst in navigatie menu*/
 nav ul li {
     padding-left: 1em;
     color: #0D01A4;
 }
 
+/* Eerste item lijst van navigatie menu */
 nav ul li:first-child img {
+    width: 1.3em;
+    padding-bottom: 0.2em;
+}
+
+/* Tweede item in lijst van navigatie menu */
+nav ul li:nth-child(2) {
+    flex-grow: 2;
+    font-size: 2em;
+    padding-left: 0.5em;
+}
+
+nav ul li:nth-child(2) img {
     width: 4em;
 }
 
 nav ul li img {
-    width: 1.3em;
+    width: 1.5em;
+    transition: 0.3s;
 }
 
-nav ul li:first-child {
-    flex-grow: 2;
-    font-size: 2em;
+/* Transistion hover om kleur vloeiender over te laten lopen */
+/*https://css-tricks.com/almanac/properties/t/transition/*/
+nav ul li img:hover {
+    opacity: 30%;
 }
 
+/* Laatste item in de lijst van navigatie menu*/
 nav ul li:last-child {
     padding-right: 1em;
 }
@@ -43,19 +60,22 @@ nav ul li:last-child {
 
 /* Zoekbalk */
 form {
+    display: flex;
+    justify-content: center;
     background-color: #0D01A4;
     margin-top: 0.5em;
     padding: 1em 0em;
 }
 
 form input {
-    width: 23em;
+    width: 85%;
     margin-left: 1em;
     border-radius: 2em 0em 0em 2em;
     border: 1px solid white;
     padding: 0.8em 0.4em 0.8em 2em;
 }
 
+/* Zoekbalk loop icoon */
 form button {
     background-color: white;
     border: 0em solid white;
@@ -67,7 +87,8 @@ form button img {
     width: 1em;
 }
 
-/* Body */
+
+/* Games pagina */
 h2 {
     margin: 1em 0em 0.5em 0.5em;
     font-family: 'Arvo', sans-serif;
@@ -81,20 +102,17 @@ h2 {
     font-weight: lighter;
     line-height: 1.5em;
     font-family: sans-serif;
+    max-width: 50em;
 }
 
+/* Games pagina header img */
 .headerimg {
-    width: 26em;
-    padding: 0em 0.8em;
+    width: 100%;
+    max-width: 45em;
+    padding: 0.5em;
 }
 
-.midimg {
-    width: 26em;
-/*    padding: 0em 0.8em;*/
-    margin: 1em;
-}
-
-/* Slider 1  */
+/* Games Slider 1  */
 .slider1 {
     display: flex;
     flex-direction: row;
@@ -136,6 +154,7 @@ h2 {
 
 }
 
+/* Games slider 2 merken */
 .slider2 {
     display: flex;
     flex-direction: row;
@@ -171,13 +190,12 @@ h2 {
     justify-content: center;
 }
 
-/*images in slider 1 */
 .slider2 ul li a img {
-    max-height: 2.5em;
-    max-width: 2.5em;
+    max-height: 2.9em;
+    max-width: 2.9em;
 }
 
-/* Product */
+/* Sectie voor 1 product */
 .product {
     display: flex;
     flex-direction: row;
@@ -188,10 +206,13 @@ h2 {
     border-top: 1px solid darkgray;
 }
 
+/* Plaatje van product */
 .product img {
     width: 25%;
+    max-width: 8em;
 }
 
+/* Sectie naast het plaatje van product */
 .product div {
     display: flex;
     flex-direction: column;
@@ -199,6 +220,7 @@ h2 {
     padding: 0em 1.5em;
 }
 
+/* Uitgever van het product */
 .uitgever {
     font-family: sans-serif;
     font-size: 0.8em;
@@ -207,6 +229,7 @@ h2 {
     color: gray;
 }
 
+/* Titel van het product */
 .product div h2 {
     font-family: sans-serif;
     font-size: 0.8em;
@@ -250,7 +273,7 @@ h2 {
     margin 0em;
 }
 
-/* Prijs */
+/* Prijs van het product  */
 .prijs {
     font-family: 'Arvo', sans-serif;
     font-weight: bolder;
@@ -259,6 +282,7 @@ h2 {
     padding-bottom: 0.4em;
 }
 
+/* Voorraad van het product */
 .voorraad {
     color: green;
     font-family: sans-serif;
@@ -271,6 +295,7 @@ h2 {
     margin-bottom: 0.8em;
 }
 
+/* Wanneer in huis */
 .besteld {
     color: green;
     font-family: sans-serif;
@@ -278,7 +303,7 @@ h2 {
     font-weight: lighter;
 }
 
-/*aanbevolen sectie*/
+/* Verder kijken sectie */
 .h2aanbevolen {
     margin: auto;
     text-align: center;
@@ -288,7 +313,9 @@ h2 {
 
 .aanbevolen {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     padding: 0em 1em 2em 1em;
     background-color: #F0F6FF;
 }
@@ -315,6 +342,15 @@ h2 {
     background-color: #ffffff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
     margin: 0.2em 0em;
+    transition: 0.5s;
+}
+
+/* Transistion hover om kleur vloeiender over te laten lopen */
+/*https://css-tricks.com/almanac/properties/t/transition/*/
+.aanbevolen ul li:hover {
+    background-color: skyblue;
+    color: #ffffff;
+    border: 1px solid skyblue;
 }
 
 .aanbevolen ul li img {
@@ -323,12 +359,13 @@ h2 {
 }
 
 /* Homepage */
+/* Black Friday image */
 .indexheaderimg {
-    /*    width: 23.5em;*/
-    width: 100%
+    width: 100%;
+    max-width: 73em;
 }
 
-/* Kleine index slider */
+/* index slider 1 */
 .indexslider1 {
     display: flex;
     flex-direction: row;
@@ -362,14 +399,15 @@ h2 {
 }
 
 .indexslider1 ul li img {
-    width: 8em;
-    height: 8em;
+    width: 8.3em;
+    height: 8.3em;
     margin-bottom: 0.5em;
+    /*Zorgt ervoor dat image niet rekt */
     /*https://www.w3schools.com/css/css3_object-fit.asp*/
     object-fit: contain;
 }
 
-/* Grote index slider */
+/* Index slider 2 */
 .indexslider2 {
     display: flex;
     flex-direction: row;
@@ -412,7 +450,19 @@ h2 {
 
 }
 
+/* Games kerst image */
+.midimg {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
 
+.midimg img {
+    width: 100%;
+    max-width: 73em;
+}
+
+/* Index slider 3 */
 .indexslider3 {
     display: flex;
     flex-direction: row;
@@ -425,7 +475,6 @@ h2 {
     justify-content: flex-start;
     flex-wrap: nowrap;
     padding: 0.5em 0.8em;
-
 }
 
 .indexslider3 ul li {
@@ -443,22 +492,86 @@ h2 {
 
 .indexslider3 ul li a {
     text-decoration: none;
-
 }
 
 .indexslider3 ul li img {
-    width: 23em;
-    height: 12em;
+    width: 24em;
     margin-bottom: 0.5em;
     /*https://www.w3schools.com/css/css3_object-fit.asp*/
     object-fit: cover;
-
 }
 
+
+/* Dropdown menu - Ontdek alles van Bol.co. */
+/*wrapper https://codepen.io/huange/pen/pJqEMj*/
+}
+
+.wrapper {
+    margin: 10% auto;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Categorienaam in dropdown menu*/
+label {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    border-bottom: solid 1px lightgray;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+label.last {
+    border-bottom: 1px solid #fff;
+}
+
+ul ul li {
+    padding: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-bottom: solid 1px lightgray;
+}
+
+/* Laat checkbox verdwijnen */
+input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"] ~ ul {
+    height: 0;
+    transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ ul {
+    height: 100%;
+    transform-origin: top;
+    transition: transform .2s ease-out;
+    transform: scaleY(1);
+}
+
+input[type="checkbox"]:checked + label {
+    border-bottom: 1px solid #fff;
+}
+
+
 /* Footer */
+
+/* Services sectie */
 .services {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     background-color: #0D01A4;
     padding: 1em 0.8em;
+    align-content: center;
 }
 
 .services h2 {
@@ -469,11 +582,13 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+    width: 20em;
     padding: 1em 1em;
 }
 
 .services div img {
-    width: 4em;
+    width: 3em;
     margin-right: 2em;
 }
 
@@ -489,6 +604,7 @@ h2 {
     font-weight: bold;
 }
 
+/* Social Media sectie */
 .social {
     padding: 2.5em 0em 0em 0em;
     display: flex;
@@ -515,6 +631,12 @@ h2 {
 .social ul li img {
     width: 1.2em;
     margin: 0em 0.5em;
+    transition: 0.3s;
+}
+
+
+.social ul li img:hover {
+    opacity: 50%
 }
 
 
@@ -526,6 +648,7 @@ h2 {
     border-bottom: 1px solid darkgray;
 }
 
+/* Bol.com footer logo */
 .footerimg {
     width: 13em;
     margin: auto;
@@ -545,6 +668,7 @@ h2 {
     padding: 0em 0.5em;
 }
 
+/* Voorwaarden tekst */
 .voorwaarden {
     margin-bottom: 2em;
     font-size: 0.6em;
@@ -555,62 +679,96 @@ h2 {
 }
 
 
-
-
-/*wrapper https://codepen.io/huange/pen/pJqEMj*/
+/* Hamburgermenu */
+body article:last-of-type.zichtbaar {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
 }
 
-.wrapper {
-    margin: 10% auto;
-    width: 400px;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-label {
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-    border-bottom: solid 1px lightgray;
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-
-label.last {
-    border-bottom: 1px solid #fff;
-}
-
-ul ul li {
-    padding: 10px;
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    border-bottom: solid 1px lightgray;
-}
-
-
-input[type="checkbox"] {
+body article:last-of-type {
+    /*    https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/*/
     position: absolute;
-    left: -9999px;
+    z-index: 1;
+    top: 0em;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    /*    https://css-tricks.com/almanac/properties/p/position/*/
+    left: -100%
 }
 
-input[type="checkbox"] ~ ul {
-    height: 0;
-    transform: scaleY(0);
+.fixedmenu {
+    /*    https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/*/
+    position: fixed;
+    width: 100%;
+    height: 70em;
+    background-color: #ffffff;
+    text-align: right;
 }
 
-input[type="checkbox"]:checked ~ ul {
-    height: 100%;
-    transform-origin: top;
-    transition: transform .2s ease-out;
-    transform: scaleY(1);
+.fixedmenudiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-input[type="checkbox"]:checked + label {
-    border-bottom: 1px solid #fff;
+.fixedmenudiv ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0em 1em;
+    max-width: 30em;
+    overflow-y: scroll;
+    height: 38em;
+}
+
+.fixedmenudiv ul li {
+    text-align: center;
+    width: 5em;
+    margin: 0em 1em 2em 1em;
+    font-family: sans-serif;
+    color: #0D01A4;
+}
+
+.fixedmenudiv ul li:last-child {
+    padding-bottom: 4em;
+}
+
+.fixedmenudiv ul li img {
+    width: 4em;
+}
+
+#kruisje {
+    width: 1em;
+    height: 1em;
+    margin: 1em 1.3em;
+}
+
+/* Tablet formaat */
+@media all and (min-width: 600px) {
+    main {
+        margin: 0em 2em;
+    }
+
+    .maingames {
+        margin: 0em 5em
+    }
+
+    form input {
+        width: 55%;
+    }
+}
+
+/* Desktop formaat */
+@media all and (min-width: 1300px) {
+    main {
+        margin: 0em 7em;
+    }
+
+    .maingames {
+        margin: 0em 23em;
+    }
 }

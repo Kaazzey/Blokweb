@@ -8,35 +8,48 @@
 
     <title>Bol.com</title>
 
+    <!--   Link naar CSS bestand -->
     <link href="styles/style.css" rel="stylesheet">
+
+    <!--    Link naar Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lora&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <script src="scripts/script.js"></script>
+
+    <!--   Header -->
     <header>
+
+        <!--       Navigatie -->
         <nav>
             <ul>
-                <li><img src="images/navlogo.svg" alt="Bol.com"></li>
-                <li><a href=""><img src="images/image1.png" alt="Profiel"></a></li>
-                <li><a href=""><img src="images/image5.png" alt="favorieten"></a></li>
-                <li><a href=""><img src="images/image3.png" alt="Winkelmandje"></a></li>
+                <li><img src="images/menu.svg" alt="Menu" id="menuknop"></li>
+                <li><a href="index.html"><img src="images/navlogo.svg" alt="Bol.com"></a></li>
+                <li><a href=""><img src="images/user.svg" alt="Profiel"></a></li>
+                <li><a href=""><img src="images/heart.svg" alt="favorieten"></a></li>
+                <li><a href=""><img src="images/shopping-cart.svg" alt="Winkelmandje"></a></li>
             </ul>
         </nav>
+
+        <!--        Zoekbalk -->
         <form role="zoek" action="#">
             <input type="search" name="search" id="search" placeholder="Waar ben je naar op zoek?" autocomplete="off">
             <button type="submit"><img src="images/image9.png" alt="zoeken"></button>
         </form>
-
     </header>
-    <main>
+
+    <main class="maingames">
         <section>
+
+            <!--           Titel en introtekst games pagina -->
             <h2>Games</h2>
 
             <p class="introtekst">Welkom in de bol.com games winkel. Op zoek naar de laatst games, consoles of accessoires zoals headsets, controllers en oplaadstations? We hebben ze allemaal, van handheld console zoals de Switch, 3DS en PS vita, tot Playstations en Xbox-en.</p>
 
+            <!--           10 euro select korting image -->
             <img src="images/selectkorting.png" alt="tot €10,- select korting" class="headerimg">
 
+            <!--           Slider categorien -->
             <div class="slider1">
                 <ul>
                     <li><a href="">Videogames</a><img src="images/as.jpg" alt="Videogames"></li>
@@ -46,6 +59,8 @@
                     <li><a href="">Controllers</a><img src="images/switchcontroller.jpg" alt="Controllers"></li>
                 </ul>
             </div>
+
+            <!--           Slider merken -->
             <div class="slider2">
                 <ul>
                     <li><a href=""><img src="images/merk1.jpg" alt="Nintendo"></a></li>
@@ -59,6 +74,8 @@
                 </ul>
             </div>
         </section>
+
+        <!--        Product sectie -->
         <section class="product">
             <img src="images/fifa.jpg" alt="Fifa 21">
             <div>
@@ -78,6 +95,7 @@
                 <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
             </div>
         </section>
+        
         <section class="product">
             <img src="images/acv.jpg" alt="Assassins Creed Valhalla">
             <div>
@@ -97,6 +115,7 @@
                 <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
             </div>
         </section>
+        
         <section class="product">
             <img src="images/justdance.jpg" alt="Just dance">
             <div>
@@ -116,8 +135,9 @@
                 <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
             </div>
         </section>
+        
         <section class="product">
-            <img src="images/acv.jpg" alt="Assassins Creed Valhalla">
+            <img src="images/cod.jpg" alt="Assassins Creed Valhalla">
             <div>
                 <p class="uitgever">Activision</p>
                 <h2>Call of Duty: Black Ops Cold War - PS4</h2>
@@ -135,6 +155,8 @@
                 <p class="besteld">Voor 23:59 uur besteld, morgen in huis</p>
             </div>
         </section>
+
+        <!--        Verder kijken sectie -->
         <h2 class="h2aanbevolen">Verder kijken?</h2>
         <section class="aanbevolen">
             <ul>
@@ -144,26 +166,38 @@
             </ul>
         </section>
     </main>
+
+    <!--  Footer  -->
     <footer>
+
+        <!--       Service en contact sectie -->
         <section class="services">
             <h2>Services &amp; Contact</h2>
+
+            <!--            Eerste regel -->
             <div>
-                <img src="images/image1.png" alt="icoon">
+                <img src="images/userwhite.svg" alt="icoon">
                 <ul>
                     <li>Snel Regelen in je account</li>
                     <li><u>Volg je bestelling</u>, <u>betaal facturen</u> of <u>retourneer een artikel.</u></li>
                 </ul>
             </div>
+
+            <!--            Tweede regel -->
             <div>
-                <img src="images/image3.png" alt="icoon">
+                <img src="images/shopping-cartwhite.svg" alt="icoon">
                 <ul>
                     <li>Heb je ons nodig</li>
                     <li>We helpen je graag. <u>Onze klantenservice</u> is dag en nacht open.</li>
                 </ul>
             </div>
         </section>
+
+        <!--        Social Media sectie -->
         <section class="social">
             <h2>Wil je ons volgen?</h2>
+
+            <!--            Social Media iconen -->
             <ul>
                 <li><img src="images/soc1.png" alt="Facebook"></li>
                 <li><img src="images/soc2.png" alt="Twitter"></li>
@@ -173,7 +207,11 @@
                 <li><img src="images/soc6.png" alt="LinkedIn"></li>
             </ul>
             <p>Meld je aan voor onze nieuwsbrief</p>
+
+            <!--            Bol.com footer logo-->
             <img src="images/footerlogo.png" alt="Bol.com: De Winkel van ons allemaal" class="footerimg">
+
+            <!--            Footer links -->
             <ul class="footerlinks">
                 <li>Geldt voor aankopen bij Thuiswinkel-leden</li>
                 <li>|</li>
@@ -184,11 +222,46 @@
                 <li>© 1999-2020 bol.com b.v.</li>
             </ul>
         </section>
+
+        <!--        Voorwaarden -->
         <section class="voorwaarden">
             <p>* De voordelen van bol.com gelden niet voor het gehele assortiment. Bekijk de voorwaarden.</p>
             <p>Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele verzendkosten en servicekosten.</p>
         </section>
     </footer>
+
+    <!-- Hamburgermenu -->
+    <article>
+
+        <!--       Hamburgermenu achtergrond-->
+        <div class="fixedmenu">
+
+            <!--           Kruisje SVG -->
+            <img src="images/close.svg" alt="Terug" id="kruisje">
+
+            <!--           Hamburgermenu items -->
+            <div class="fixedmenudiv">
+                <ul>
+                    <li><img src="images/fi1.png" alt="">Boeken</li>
+                    <li><img src="images/fi2.png" alt="">Muziek, Film &amp; Games</li>
+                    <li><img src="images/fi3.png" alt="">Computer &amp; Elektronica</li>
+                    <li><img src="images/fi4.png" alt="">Speelgoed &amp; Hobby</li>
+                    <li><img src="images/fi5.png" alt="">Baby &amp; Kind</li>
+                    <li><img src="images/fi6.png" alt="">Mooi &amp; Gezond</li>
+                    <li><img src="images/fi8.png" alt="">Kleding, Schoenen &amp; Accessoires</li>
+                    <li><img src="images/fi9.png" alt="">Sport, Outdoor &amp; Reizen</li>
+                    <li><img src="images/fi10.png" alt="">Kantoor &amp; School</li>
+                    <li><img src="images/fi11.png" alt="">Dranken &amp; Delicatessen</li>
+                    <li><img src="images/fi12.png" alt="">Wonen, Koken &amp; Huishouden</li>
+                    <li><img src="images/fi13.png" alt="">Dier, Tuin &amp; Klussen</li>
+                    <li><img src="images/fi14.png" alt="">Auto &amp; Motor</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!--   Link naar javascript bestand -->
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
